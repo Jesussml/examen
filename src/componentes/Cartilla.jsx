@@ -1,7 +1,7 @@
 import '../estilos/cartilla.css'
 
 export function Cartilla( {nombre, ruta, desc, enlace} ) {
-    const srcImage = `../../public/actor_${ruta}.png`
+    const srcImage = `/src/assets/images/actor_${ruta}`
 
     return(
         <div className='cartilla'>
