@@ -1,0 +1,37 @@
+nav {
+    width: 100%;
+    background-color: #333446;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+li, a, .enlace {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EAEFEF;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.links {
+    list-style: none;
+}
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.links li .enlace {
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+.links li .enlace:hover {
+    color: rgb(176, 247, 244);
+}
